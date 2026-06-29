@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femboy or Not?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Femboy or Not?</h1>
+
+    <video id="video" width="900" controls preload="auto">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="buttons">
+        <button id="femboyBtn" onclick="guess('femboy')">
+            Femboy
+        </button>
+
+        <button id="womanBtn" onclick="guess('woman')">
+            Woman
+        </button>
+    </div>
+
+    <div id="result"></div>
+
+</div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
